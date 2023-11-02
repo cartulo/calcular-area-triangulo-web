@@ -1,8 +1,43 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
+    Layout = null;
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+ <div>
+     <label>Insira o valor da base: </label>
+     <input id="inputValorBase"/>
+     <br />
+
+    <label>Insira o valor da altura: </label>
+    <input id="inputValorAltura"/>
+    <br />
+
+    <button id="btnCalcularArea" onclick="calcularArea()">
+        Calcular área do triângulo
+    </button>
+    <br />
+
+    <label id="labelResposta"></label>
+ </div>
+
+ <script>
+    function calcularArea() {
+        var valorBase = document.getElementById("inputValorBase").value;
+        var valorAltura = document.getElementById("inputValorAltura").value;
+
+        var url = `http://localhost:5098/Triangulos/calcular-triangulos?valorBase=${valorBase}&valorAltura=${valorAltura}`;
+
+        fetchAsync(url);
+    }
+
+     async function fetchAsync(url) {
+         var resposta = await fetch(url);
+
+         if (resposta.ok) {
+             var dados = await resposta.text();
+             document.getElementById("labelResposta").innerText = dados;
+         } else {
+             document.getElementById("labelResposta").innerText = "Ocorreu um erro no servidor";
+         }
+     }
+ </script>

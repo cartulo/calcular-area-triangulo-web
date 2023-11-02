@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34221.43
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "calcular-area-triangulo-web", "calcular-area-triangulo-web\calcular-area-triangulo-web.csproj", "{1168145C-B394-46B0-88B7-EDC123E13199}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "calcular-area-triangulo-web", "calcular-area-triangulo-web\calcular-area-triangulo-web.csproj", "{388590D2-3D63-4828-ACA1-1ED58C0343E0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{1168145C-B394-46B0-88B7-EDC123E13199}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1168145C-B394-46B0-88B7-EDC123E13199}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1168145C-B394-46B0-88B7-EDC123E13199}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1168145C-B394-46B0-88B7-EDC123E13199}.Release|Any CPU.Build.0 = Release|Any CPU
+		{388590D2-3D63-4828-ACA1-1ED58C0343E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{388590D2-3D63-4828-ACA1-1ED58C0343E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{388590D2-3D63-4828-ACA1-1ED58C0343E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{388590D2-3D63-4828-ACA1-1ED58C0343E0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {BBC0D986-F2B5-4471-ABEF-608B12CDC5DC}
+		SolutionGuid = {8B923DE9-B5F9-4C04-A92F-2F24703C6B3E}
 	EndGlobalSection
 EndGlobal
